@@ -34,3 +34,20 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+
+
+
+
+
+# echo "# Next.js_Auth" >> README.md
+# git init
+# git add README.md
+# git commit -m "first commit"
+# git branch -M main
+# git remote add origin https://github.com/suaibislam/Next.js_Auth.git
+# git push -u origin main
+# …or push an existing repository from the command line
+# git remote add origin https://github.com/suaibislam/Next.js_Auth.git
+# git branch -M main
+# git push -u origin main
