@@ -16,8 +16,8 @@ export function middleware(request: NextRequest) {
   const isPublicPath = path === '/login' || path === '/signup' || path === '/verifyemail'
 
   const token = request.cookies.get('token')?.value || ''
-  console.log("token processing .....")
-  console.log(token);
+  // console.log("token processing .....")
+  // console.log(token);
 
   if(isPublicPath && token) {
     return NextResponse.redirect(new URL('/', request.nextUrl))
